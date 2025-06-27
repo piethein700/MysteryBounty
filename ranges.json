@@ -1,0 +1,28 @@
+{
+  "20_BTN_SB_bounty": {
+    "callRange": [
+      "A9s+",
+      "KJs+",
+      "77+"
+    ],
+    "pushRange": [
+      "A2s+",
+      "55+",
+      "K9s+",
+      "QJs"
+    ]
+  },
+  "10_CO_BTN_noBounty": {
+    "callRange": [
+      "ATo+",
+      "KTs+",
+      "66+"
+    ],
+    "pushRange": [
+      "A5s+",
+      "22+",
+      "KTo+",
+      "QTs+"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Push/Fold & Call Ranges</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Push/Fold & Call Ranges</h1>
+
+    <label for="stackSize">Your Stack (BB):</label>
+    <input type="range" id="stackSize" min="10" max="30" step="1" value="20"/>
+    <span id="stackDisplay">20</span>bb
+
+    <label for="position">Your Position:</label>
+    <select id="position">
+      <option value="EP">EP</option>
+      <option value="MP">MP</option>
+      <option value="CO">CO</option>
+      <option value="BTN">BTN</option>
+      <option value="SB">SB</option>
+      <option value="BB">BB</option>
+    </select>
+
+    <label for="vsPosition">Opponent's Position:</label>
+    <select id="vsPosition">
+      <option value="EP">EP</option>
+      <option value="MP">MP</option>
+      <option value="CO">CO</option>
+      <option value="BTN">BTN</option>
+      <option value="SB">SB</option>
+      <option value="BB">BB</option>
+    </select>
+
+    <label><input type="checkbox" id="bountyToggle"> Bounty Active</label>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
